@@ -144,6 +144,8 @@ class RobotPost(object):
     def MoveJ(self, pose, joints, conf_RLF=None):
         """Add a joint movement"""
         self.addline('PTP,%s' % (pose_2_str(pose)))
+       
+        
         
     def MoveL(self, pose, joints, conf_RLF=None):
         """Add a linear movement"""
@@ -156,7 +158,7 @@ class RobotPost(object):
         
     def setFrame(self, pose, frame_id=None, frame_name=None):
         """Change the robot reference frame"""
-        #self.REF_FRAME = pose
+        self.REF_FRAME = pose
         
     def setTool(self, pose, tool_id=None, tool_name=None):
         """Change the robot TCP"""
@@ -191,22 +193,25 @@ class RobotPost(object):
 
     def setDO(self, io_var, io_value):
         """Sets a variable (digital output) to a given value"""
-        if type(io_var) != str:  # set default variable name if io_var is a number
-            io_var = 'OUT[%s]' % str(io_var)
-        if type(io_value) != str: # set default variable value if io_value is a number
-            if io_value > 0:
-                io_value = '1'
-            else:
-                io_value = '0'
+        # if type(io_var) != str:  # set default variable name if io_var is a number
+            # io_var = 'OUT[%s]' % str(io_var)
+        # if type(io_value) != str: # set default variable value if io_value is a number
+            # if io_value > 0:
+                # io_value = '1'
+            # else:
+                # io_value = '0'
 
         # at this point, io_var and io_value must be string values
-        self.addline('Set DO,%s,%s' % (io_var, io_value))
-
+        self.addline(',var_switch=%s' % (io_value))
+		
     def setAO(self, io_var, io_value):
         """Set an Analog Output"""
-        self.setDO(io_var, io_value)
-        
+        #self.setDO(io_var, io_value)
+        self.addline('Set AO,%s,%s' % (io_var, io_value))
+		
+		
     def waitDI(self, io_var, io_value, timeout_ms=-1):
+	
         """Waits for a variable (digital input) io_var to attain a given value io_value. Optionally, a timeout can be provided."""
         if type(io_var) != str:  # set default variable name if io_var is a number
             io_var = 'IN[%s]' % str(io_var)
@@ -237,31 +242,34 @@ class RobotPost(object):
             #self.addline('')
             pass
         else:
-            self.addline('Show Message,%s' % message)
+            #self.addline('Show Message,%s' % message)
+            pass
         
 # ------------------ private ----------------------                
     def addline(self, newline):
         """Add a program line"""
-        self.PROG = self.PROG + newline + '\n'
-        
+        if "_" in newline:
+            self.PROG = self.PROG + newline
+        else:
+            self.PROG = self.PROG + '\n' + newline
     def addlog(self, newline):
         """Add a log message"""
         self.LOG = self.LOG + newline + '\n'
 
 # -------------------------------------------------
 # ------------ For testing purposes ---------------   
-def Pose(xyzrpw):
-    [x,y,z,r,p,w] = xyzrpw
-    a = r*math.pi/180
-    b = p*math.pi/180
-    c = w*math.pi/180
-    ca = math.cos(a)
-    sa = math.sin(a)
-    cb = math.cos(b)
-    sb = math.sin(b)
-    cc = math.cos(c)
-    sc = math.sin(c)
-    return Mat([[cb*ca, ca*sc*sb - cc*sa, sc*sa + cc*ca*sb, x],[cb*sa, cc*ca + sc*sb*sa, cc*sb*sa - ca*sc, y],[-sb, cb*sc, cc*cb, z],[0,0,0,1]])
+# def Pose(xyzrpw):
+    # [x,y,z,r,p,w] = xyzrpw
+    # a = r*math.pi/180
+    # b = p*math.pi/180
+    # c = w*math.pi/180
+    # ca = math.cos(a)
+    # sa = math.sin(a)
+    # cb = math.cos(b)
+    # sb = math.sin(b)
+    # cc = math.cos(c)
+    # sc = math.sin(c)
+    # return Mat([[cb*ca, ca*sc*sb - cc*sa, sc*sa + cc*ca*sb, x],[cb*sa, cc*ca + sc*sb*sa, cc*sb*sa - ca*sc, y],[-sb, cb*sc, cc*cb, z],[0,0,0,1]])
 
 def test_post():
     """Test the post with a basic program"""

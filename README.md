@@ -101,9 +101,17 @@ In order to get the system running one has to load the program backup files to t
  a) Open TM Flow 
  b) Double-click on the Cobot when it appears on the screen and press OK button
  c) Press on Get Control button
- d) Click on the "3 dashes" button in the top left corner and the click on the "Project" button.
+ d) Click on the "3 dashes" button in the top left corner and the click on the "Project" button
  e) Find the project named "RoboDKListenMode"
  f) Use cobot's remote to run the program.
+ 
+3. RoboDK
+ a) Open RoboDK
+ b) Locate RoboDK project for a selected part (i.e. "2E06666.rdk")
+ c) Double click on the Program in the File exporer to the left to simulate the program 
+ d) If everything is fine right click on the program and click on "Send to robot"
+    This will send the path plan to PLC/Cobot
+ e) Use GUI to start the program.
 ```
 ### Test
 ```text

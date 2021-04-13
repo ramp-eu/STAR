@@ -54,7 +54,7 @@ This project is part of [DIH^2](http://www.dih-squared.eu/). For more informatio
 
 ## Background
 
-### Project scope
+#### Project scope
 ```text
 The system developed during the duration on the STAR project had a list of features to tick: 
  1.  Detect parts presented to it using vision.

@@ -82,6 +82,14 @@ technology to adapt to variances associated with bespoke, short run manufacture.
 on digital simulation, vision system support and repeatability of cobotic paths to perform 
 detailed stitching/ taping paths.
 
+##Solution
+Our solution consists the deployment of a single Techman 12 cobot mounted on a large table with two defined
+spaces (vision system selection area and stitching/ taping area). The function of the is to pick (using a vacuum
+gripper) the acoustic parts from selection area, present the part to a stitching machine or taping machine. The
+robot then guides the part through either machine while a coordinated operation edge tapes or stitches the part.
+Finally, the cobot will place the part down for manual removal and QC checks.
+
+
 ## Install
 
 During this project we have used Omron Sysmac Studio for PLC programming, 
@@ -142,7 +150,7 @@ In order to get the system running one has to load the program backup files to t
 #### Vision
 
 ```text
-Placeholuder
+Placeholder
 ```
 
 ## API

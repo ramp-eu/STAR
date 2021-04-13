@@ -53,10 +53,10 @@ This project is part of [DIH^2](http://www.dih-squared.eu/). For more informatio
 ### Application Domain
 	Bespoke, short production run acoustic panel manufacture for the automotive industry.
 ### Main Process
-	Edge taping and edge stitching of composite acoustic panels of varying size, thickness and flexibility. Process
-	involves selection and identification of a part to be edge stitched or edge taped. The process centres around an
-	integrated cobotic solution that coordinates with stitching and taping machines. This is an end of line finishing
-	process that is currently a manual process.
+	Edge taping and edge stitching of composite acoustic panels of varying size, thickness and flexibility. 
+	Process involves selection and identification of a part to be edge stitched or edge taped. The process
+	centres around an integrated cobotic solution that coordinates with stitching and taping machines. 
+	This is an end of line finishing process that is currently a manual process.
 
 #### Project scope
 ```

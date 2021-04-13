@@ -55,7 +55,7 @@ This project is part of [DIH^2](http://www.dih-squared.eu/). For more informatio
 ## Background
 
 #### Project scope
-```text
+
 The system developed during the duration on the STAR project had a list of features to tick: 
  1.  Detect parts presented to it using vision.
  2.  Detect part's orientation and position. 
@@ -63,7 +63,7 @@ The system developed during the duration on the STAR project had a list of featu
  3b. Using the cobot, guide the part through the automated stitching machine to stitch all sides. 
  4.  Or using the cobot, guide the part through the automated taping machine to tape all sides.
  5.  Place the finished part to be picked up by operator. 
-```
+
 
 ## Install
 

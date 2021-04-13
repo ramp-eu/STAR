@@ -127,9 +127,12 @@ In order to get the system running one has to load the program backup files to t
 
 #### PLC
 
-a) To load the PLC program open "PLC_Mastercode.smc2" with Sysmac Studio
+a) To load the PLC program open "PLC_Mastercode.smc2" with Sysmac Studio 
+
 b) Go to Controller --> Online. At the bottom right corner one would see if online with the PLC (green dot)
+
 c) To transfer the code to the PLC go to Controller --> Transfer... --> To controller and press transfer
+
 d) When prompted switch PLC to remote run. 
 
 #### TMFLlow

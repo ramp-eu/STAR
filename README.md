@@ -58,7 +58,7 @@ This project is part of [DIH^2](http://www.dih-squared.eu/). For more informatio
 	centres around an integrated cobotic solution that coordinates with stitching and taping machines. 
 	This is an end of line finishing process that is currently a manual process.
 
-#### Project scope
+### Project scope
 ```
 The system developed during the duration on the STAR project had a list of features to tick: 
  1.  Detect parts presented to it using vision.

@@ -42,7 +42,7 @@ This project is part of [DIH^2](http://www.dih-squared.eu/). For more informatio
 ## Contents
 
 -   [Background](#background)
--   [Solution] (#solution)
+-   [Solution](#solution)
 -   [Install](#install)
 -   [Usage](#usage)
 -   [API](#api)

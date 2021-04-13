@@ -1,7 +1,7 @@
 ## Requirements for the Mid-Term Review: [here](docs/README.md) 
 <hr />
 
-# STAR: Automated stitchind and taping of parts using robotics and vision
+# STAR - Stitching and Taping Assisted by Robotics
 
 [![License: MIT](https://img.shields.io/github/license/ramp-eu/TTE.project1.svg)](https://opensource.org/licenses/MIT)
 [![Docker badge](https://img.shields.io/docker/pulls/ramp-eu/TTE.project1.svg)](https://hub.docker.com/r/<org>/<repo>/)
@@ -32,12 +32,8 @@ Note that the CII Best Practices questionaire will request evidence of tooling u
 
 ```
 
-```text
-One or two sentence preamble describing the element
-```
 
-This project is part of [DIH^2](http://www.dih-squared.eu/). For more information check the RAMP Catalogue entry for the
-[components](https://github.com/xxx).
+This project is part of [DIH^2](http://www.dih-squared.eu/). For more information check the RAMP Catalogue entry for the components.
 
 | :books: [Documentation](https://tte-project1.readthedocs.io/en/latest/) | :whale: [Docker Hub](https://hub.docker.com/r/link-to-docker) |
 | --------------------------------------------- | ------------------------------------------------------------- |
@@ -54,8 +50,16 @@ This project is part of [DIH^2](http://www.dih-squared.eu/). For more informatio
 
 ## Background
 
-#### Project scope
+### Application Domain
+	Bespoke, short production run acoustic panel manufacture for the automotive industry.
+### Main Process
+	Edge taping and edge stitching of composite acoustic panels of varying size, thickness and flexibility. Process
+	involves selection and identification of a part to be edge stitched or edge taped. The process centres around an
+	integrated cobotic solution that coordinates with stitching and taping machines. This is an end of line finishing
+	process that is currently a manual process.
 
+#### Project scope
+```
 The system developed during the duration on the STAR project had a list of features to tick: 
  1.  Detect parts presented to it using vision.
  2.  Detect part's orientation and position. 
@@ -63,7 +67,7 @@ The system developed during the duration on the STAR project had a list of featu
  3b. Using the cobot, guide the part through the automated stitching machine to stitch all sides. 
  4.  Or using the cobot, guide the part through the automated taping machine to tape all sides.
  5.  Place the finished part to be picked up by operator. 
-
+```
 
 ## Install
 

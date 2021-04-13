@@ -74,13 +74,13 @@ This project is part of [DIH^2](http://www.dih-squared.eu/). For more informatio
 
 ### Main Objectives
 	
-	The main objective of this project is to digitise and install an automated robotic solution to a process
-	that up to now has been totally manual. So in essence to employ an additional line of assembly that 
-	requires less skilled operators to support the performance of tasks that have normally been reserved 
-	for more skilled operatives. The experiment sought to explore the capabilities of integrating available 
-	technology to adapt to variances associated with bespoke, short run manufacture. Focus has been placed 
-	on digital simulation, vision system support and repeatability of cobotic paths to perform 
-	detailed stitching/ taping paths.
+The main objective of this project is to digitise and install an automated robotic solution to a process
+that up to now has been totally manual. So in essence to employ an additional line of assembly that 
+requires less skilled operators to support the performance of tasks that have normally been reserved 
+for more skilled operatives. The experiment sought to explore the capabilities of integrating available 
+technology to adapt to variances associated with bespoke, short run manufacture. Focus has been placed 
+on digital simulation, vision system support and repeatability of cobotic paths to perform 
+detailed stitching/ taping paths.
 
 ## Install
 

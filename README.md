@@ -82,7 +82,7 @@ technology to adapt to variances associated with bespoke, short run manufacture.
 on digital simulation, vision system support and repeatability of cobotic paths to perform 
 detailed stitching/ taping paths.
 
-##Solution
+## Solution
 Our solution consists the deployment of a single Techman 12 cobot mounted on a large table with two defined
 spaces (vision system selection area and stitching/ taping area). The function of the is to pick (using a vacuum
 gripper) the acoustic parts from selection area, present the part to a stitching machine or taping machine. The

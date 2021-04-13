@@ -61,11 +61,12 @@ Background information and links to relevant terms
 ## Install
 
 ```text
-How to install the component
 
 During this project we have used the Omron Sysmac Studio, Omrom TMFlow and RoboDK as the main platforms
 to program the TM12 robot and control it via the Omron PLC. 
+```
 
+```text
 A guide on how to install Omron sysmac studio could be found below: 
 ```
 [Sysmac Manual](https://assets.omron.eu/downloads/manual/en/v13/w504_sysmac_studio_operation_manual_en.pdf)
@@ -83,7 +84,9 @@ A guide on how to install RoboDK could be found below:
 ## Usage
 
 ```text
-How to use the component
+To get started with using the system you should start with loading the code to the different platforms: 
+
+
 
 Information about how to use the <Name of component> can be found in the [User & Programmers Manual](docs/usermanual.md).
 

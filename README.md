@@ -58,16 +58,17 @@ This project is part of [DIH^2](http://www.dih-squared.eu/). For more informatio
 	centres around an integrated cobotic solution that coordinates with stitching and taping machines. 
 	This is an end of line finishing process that is currently a manual process.
 
-### Project scope
-```
-The system developed during the duration on the STAR project had a list of features to tick: 
- 1.  Detect parts presented to it using vision.
- 2.  Detect part's orientation and position. 
- 3a. Using the cobot+gripper to safely pickup the part in the correct orientation.
- 3b. Using the cobot, guide the part through the automated stitching machine to stitch all sides. 
- 4.  Or using the cobot, guide the part through the automated taping machine to tape all sides.
- 5.  Place the finished part to be picked up by operator. 
-```
+### Use Case Needs / Agility Challenge Description:
+
+	Use Case Needs: - Automation of the end of line finishing to increase production capability and make
+	allowances for a diminishing skill set related to stitching in particular.
+	Agility Challenges: The SME has a wide range of profiles based on their business model of bespoke, short run
+	acoustic profiles. This presents a number of agility challenges:
+	 1. Capability to quickly recall and identify the particular part
+	 2. Capability to quickly recall the planned paths corresponding to the part
+	 3. Picking and presenting parts from random locations
+	 4. Coordination of the stitching and taping with the robotics paths
+
 
 ## Install
 
@@ -128,6 +129,10 @@ In order to get the system running one has to load the program backup files to t
 ```
 
 #### Vision
+
+```text
+Placeholuder
+```
 
 ## API
 

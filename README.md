@@ -72,8 +72,8 @@ The system developed during the duration on the STAR project had a list of featu
 ## Install
 
 ```text
-During this project we have used the Omron Sysmac Studio, Omrom TMFlow and RoboDK as the main platforms
-to program the TM12 robot and control it via the Omron PLC. 
+During this project we have used Omron Sysmac Studio for PLC programming, 
+Omrom TMFlow for Cobot programming and RoboDK for 3D simulation.
 ```
 #### Sysmac Studio (PLC Programming software)
 ```text
@@ -127,11 +127,7 @@ In order to get the system running one has to load the program backup files to t
  e) Use GUI to start the program.
 ```
 
-```text
-Information about how to use the <Name of component> can be found in the [User & Programmers Manual](docs/usermanual.md).
-
-The following features are listed as [deprecated](docs/deprecated.md).
-```
+#### Vision
 
 ## API
 

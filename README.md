@@ -137,9 +137,9 @@ d) When prompted switch PLC to remote run.
 
 #### TMFLlow
 
-a) Open TM Flow 
-b) Double-click on the Cobot when it appears on the screen and press OK button
-c) Press on Get Control button
+- a) Open TM Flow 
+- b) Double-click on the Cobot when it appears on the screen and press OK button
+- c) Press on Get Control button
 d) Click on the "3 dashes" button in the top left corner and the click on the "Project" button
 e) Find the project named "RoboDKListenMode"
 f) Use cobot's remote to run the program.

@@ -63,8 +63,9 @@ Background information and links to relevant terms
 ```text
 How to install the component
 
-Information about how to install the <Name of component> can be found at the corresponding section of the
-[Installation & Administration Guide](docs/installationguide.md).
+During this project we have used the Omron Sysmac Studio, Omrom TMFlow and RoboDK as the main platforms to program the TM12 robot and control it via the Omron PLC. 
+
+A guide on how to install Omron sysmac studio could be found here: [Sysmac Manual](https://assets.omron.eu/downloads/manual/en/v13/w504_sysmac_studio_operation_manual_en.pdf)
 
 A `Dockerfile` is also available for your use - further information can be found [here](docker/README.md)
 

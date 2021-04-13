@@ -62,8 +62,10 @@ This project is part of [DIH^2](http://www.dih-squared.eu/). For more informatio
 
 	Use Case Needs: - Automation of the end of line finishing to increase production capability and make
 	allowances for a diminishing skill set related to stitching in particular.
-	Agility Challenges: The SME has a wide range of profiles based on their business model of bespoke, short run
-	acoustic profiles. This presents a number of agility challenges:
+	
+	Agility Challenges: The SME has a wide range of profiles based on their business model of bespoke, 
+	short run acoustic profiles. This presents a number of agility challenges:
+	
 	 1. Capability to quickly recall and identify the particular part
 	 2. Capability to quickly recall the planned paths corresponding to the part
 	 3. Picking and presenting parts from random locations

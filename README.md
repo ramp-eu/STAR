@@ -51,25 +51,25 @@ This project is part of [DIH^2](http://www.dih-squared.eu/). For more informatio
 ## Background
 
 ### Application Domain
-	Bespoke, short production run acoustic panel manufacture for the automotive industry.
+Bespoke, short production run acoustic panel manufacture for the automotive industry.
 ### Main Process
-	Edge taping and edge stitching of composite acoustic panels of varying size, thickness and flexibility. 
-	Process involves selection and identification of a part to be edge stitched or edge taped. The process
-	centres around an integrated cobotic solution that coordinates with stitching and taping machines. 
-	This is an end of line finishing process that is currently a manual process.
+Edge taping and edge stitching of composite acoustic panels of varying size, thickness and flexibility. 
+Process involves selection and identification of a part to be edge stitched or edge taped. The process
+centres around an integrated cobotic solution that coordinates with stitching and taping machines. 
+This is an end of line finishing process that is currently a manual process.
 
 ### Use Case Needs / Agility Challenge Description
 
-	Use Case Needs: - Automation of the end of line finishing to increase production capability and make
-	allowances for a diminishing skill set related to stitching in particular.
-	
-	Agility Challenges: The SME has a wide range of profiles based on their business model of bespoke, 
-	short run acoustic profiles. This presents a number of agility challenges:
-	
-	 1. Capability to quickly recall and identify the particular part
-	 2. Capability to quickly recall the planned paths corresponding to the part
-	 3. Picking and presenting parts from random locations
-	 4. Coordination of the stitching and taping with the robotics paths
+Use Case Needs: - Automation of the end of line finishing to increase production capability and make
+allowances for a diminishing skill set related to stitching in particular.
+
+Agility Challenges: The SME has a wide range of profiles based on their business model of bespoke, 
+short run acoustic profiles. This presents a number of agility challenges:
+
+ 1. Capability to quickly recall and identify the particular part
+ 2. Capability to quickly recall the planned paths corresponding to the part
+ 3. Picking and presenting parts from random locations
+ 4. Coordination of the stitching and taping with the robotics paths
 
 
 ### Main Objectives

@@ -84,10 +84,9 @@ detailed stitching/ taping paths.
 
 ## Install
 
-```text
 During this project we have used Omron Sysmac Studio for PLC programming, 
 Omrom TMFlow for Cobot programming and RoboDK for 3D simulation.
-```
+
 #### Sysmac Studio (PLC Programming software)
 ```text
 A guide on how to install Omron sysmac studio could be found below: 
@@ -111,9 +110,9 @@ A guide on how to install RoboDK could be found below:
 
 ## Usage
 
-```text
+
 In order to get the system running one has to load the program backup files to the different systems.
-```
+
 #### PLC
 ```text
  a) To load the PLC program open "PLC_Mastercode.smc2" with Sysmac Studio

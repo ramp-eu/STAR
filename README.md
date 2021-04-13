@@ -96,7 +96,8 @@ In order to get the system running one has to load the program backup files to t
  b) Go to Controller --> Online. At the bottom right corner one would see if online with the PLC (green dot)
  c) To transfer the code to the PLC go to Controller --> Transfer... --> To controller and press transfer
  d) When prompted switch PLC to remote run. 
- 
+```
+```text 
 2. TMFlow
  a) Open TM Flow 
  b) Double-click on the Cobot when it appears on the screen and press OK button
@@ -104,7 +105,8 @@ In order to get the system running one has to load the program backup files to t
  d) Click on the "3 dashes" button in the top left corner and the click on the "Project" button
  e) Find the project named "RoboDKListenMode"
  f) Use cobot's remote to run the program.
- 
+```
+```text 
 3. RoboDK
  a) Open RoboDK
  b) Locate RoboDK project for a selected part (i.e. "2E06666.rdk")

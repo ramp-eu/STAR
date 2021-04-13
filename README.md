@@ -58,7 +58,7 @@ This project is part of [DIH^2](http://www.dih-squared.eu/). For more informatio
 	centres around an integrated cobotic solution that coordinates with stitching and taping machines. 
 	This is an end of line finishing process that is currently a manual process.
 
-### Use Case Needs / Agility Challenge Description:
+### Use Case Needs / Agility Challenge Description
 
 	Use Case Needs: - Automation of the end of line finishing to increase production capability and make
 	allowances for a diminishing skill set related to stitching in particular.
@@ -71,6 +71,16 @@ This project is part of [DIH^2](http://www.dih-squared.eu/). For more informatio
 	 3. Picking and presenting parts from random locations
 	 4. Coordination of the stitching and taping with the robotics paths
 
+
+### Main Objectives
+	
+	The main objective of this project is to digitise and install an automated robotic solution to a process
+	that up to now has been totally manual. So in essence to employ an additional line of assembly that 
+	requires less skilled operators to support the performance of tasks that have normally been reserved 
+	for more skilled operatives. The experiment sought to explore the capabilities of integrating available 
+	technology to adapt to variances associated with bespoke, short run manufacture. Focus has been placed 
+	on digital simulation, vision system support and repeatability of cobotic paths to perform 
+	detailed stitching/ taping paths.
 
 ## Install
 

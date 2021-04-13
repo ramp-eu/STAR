@@ -91,14 +91,14 @@ A guide on how to install RoboDK could be found below:
 ```text
 In order to get the system running one has to load the program backup files to the different systems.
 ```
-###PLC
+### PLC
 ```text
  a) To load the PLC program open "PLC_Mastercode.smc2" with Sysmac Studio
  b) Go to Controller --> Online. At the bottom right corner one would see if online with the PLC (green dot)
  c) To transfer the code to the PLC go to Controller --> Transfer... --> To controller and press transfer
  d) When prompted switch PLC to remote run. 
 ```
-###TMFLlow
+### TMFLlow
 ```text 
  a) Open TM Flow 
  b) Double-click on the Cobot when it appears on the screen and press OK button
@@ -107,7 +107,7 @@ In order to get the system running one has to load the program backup files to t
  e) Find the project named "RoboDKListenMode"
  f) Use cobot's remote to run the program.
 ```
-###RoboDK
+### RoboDK
 ```text 
  a) Open RoboDK
  b) Locate RoboDK project for a selected part (i.e. "2E06666.rdk")
@@ -116,7 +116,7 @@ In order to get the system running one has to load the program backup files to t
     This will send the path plan to PLC/Cobot
  e) Use GUI to start the program.
 ```
-### Test
+
 ```text
 Information about how to use the <Name of component> can be found in the [User & Programmers Manual](docs/usermanual.md).
 

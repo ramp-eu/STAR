@@ -85,7 +85,7 @@ detailed stitching/ taping paths.
 
 ## Solution
 
-![STAR Module Architecture Diagram](https://ibb.co/Bg5NFV2)
+![STAR Module Architecture Diagram](https://i.ibb.co/Vvcm5WY/star-diagram.jpg)
 
 Our solution consists the deployment of a single Techman 12 cobot mounted on a large table with two defined
 spaces (vision system selection area and stitching/ taping area). The function of the is to pick (using a vacuum

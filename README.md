@@ -178,7 +178,7 @@ For performing a basic end-to-end test, you have to follow the step below. A det
 
 ```
 
-# ROSEAP
+# ROSE-AP
 
 
 ### Background

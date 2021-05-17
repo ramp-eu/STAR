@@ -127,7 +127,7 @@ For performing a basic end-to-end test, you have to follow the step below. A det
 
 ```
 
-# ROSE-AP
+## ROSE-AP
 
 Information about how to use the component can be found in the [ROSE-AP Manual](docs/roseapmanual.md).
 

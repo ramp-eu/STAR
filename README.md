@@ -47,7 +47,7 @@ This project is part of [DIH^2](http://www.dih-squared.eu/). For more informatio
 -   [Usage](#usage)
 -   [API](#api)
 -   [Testing](#testing)
--   [ROSEAP] (#rose-ap)
+-   [ROSEAP] (#roseap)
 -   [License](#license)
 
 ## Background
@@ -178,7 +178,7 @@ For performing a basic end-to-end test, you have to follow the step below. A det
 
 ```
 
-# ROSE-AP
+# ROSEAP
 
 
 ### Background

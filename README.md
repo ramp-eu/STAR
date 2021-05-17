@@ -47,7 +47,7 @@ This project is part of [DIH^2](http://www.dih-squared.eu/). For more informatio
 -   [Usage](#usage)
 -   [API](#api)
 -   [Testing](#testing)
--   [ROSE-AP] (#rose-ap)
+-   [ROSEAP] (#rose-ap)
 -   [License](#license)
 
 ## Background

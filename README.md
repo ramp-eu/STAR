@@ -177,7 +177,7 @@ Once the job is completed or stopped a report is generated in the PLC that is se
 We are using the OPC-UA IOT agent to capture the data from the PLC tags and make them available as entities on OCB. 
 They would then be able to be accessed by the ERP to update the status and quantites of a job into its own database. 
 
-![ROSE-AP dataflow from PLC to ERP] (https://i.ibb.co/8brbsQX/ROSE-AP-2.jpg)
+![ROSE-AP dataflow from PLC to ERP](https://i.ibb.co/8brbsQX/ROSE-AP-2.jpg)
 
 ### Install 
 

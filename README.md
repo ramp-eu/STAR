@@ -157,6 +157,18 @@ In order to get the system running one has to load the program backup files to t
 Placeholder
 ```
 
+##ROSE-AP
+
+The ROSE-AP that we developed was about getting job requests from ERP to a STAR robotic cell to execeute. 
+
+The coming from the ERP would be in a CSV format. Using a CSV reader the data from the file would be published
+to the ORION Context Broker as entities. These entities (jobs) would be then pushed to Crate DB and stored in a table. 
+Whenever an operator initiates a start on a STAR cell from an HMI would have a table that would pull the jobs from 
+Crate DB. The operator would then select a job from the list and press START. This would get the data transferred from 
+the Crate DB table into the PLC. 
+
+![ROSE-AP dataflow from ERP to PLC](https://i.ibb.co/7rZBfS8/ROSE-AP-1.jpg) 
+
 ## API
 
 ```text

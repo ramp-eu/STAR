@@ -97,66 +97,15 @@ Finally, the cobot will place the part down for manual removal and QC checks.
 
 ## Install
 
-During this project we have used Omron Sysmac Studio for PLC programming, 
-Omrom TMFlow for Cobot programming and RoboDK for 3D simulation.
 
-#### Sysmac Studio (PLC Programming software)
-```text
-A guide on how to install Omron sysmac studio could be found below: 
-```
-- [Sysmac Manual](https://assets.omron.eu/downloads/manual/en/v13/w504_sysmac_studio_operation_manual_en.pdf)
-
-#### TMFlow (Cobot Programming software)
-```text
-A guide on how to install Omron TMFlow could be found below: 
-```
-- [TMFlow Manual](https://assets.omron.eu/downloads/manual/en/v8/i626_tm_flow_software_installation_manual_en.pdf)
-
-#### RoboDK (Robot Simulation software)
-```text
-A guide on how to install RoboDK could be found below: 
-```
-- [RoboDK Manual](https://robodk.com/doc/en/Plugin-SolidWorks-Install.html)
-
-
+Information about how to install the component can be found at the corresponding section of the
+[Installation & Administration Guide](docs/installationguide.md).
 
 
 ## Usage
 
 
-In order to get the system running one has to load the program backup files to the different systems.
-
-#### PLC
-
-- To load the PLC program open "PLC_Mastercode.smc2" with Sysmac Studio 
-- Go to Controller --> Online. At the bottom right corner one would see if online with the PLC (green dot)
-- To transfer the code to the PLC go to Controller --> Transfer... --> To controller and press transfer
-- When prompted switch PLC to remote run. 
-
-#### TMFLlow
-
-- Open TM Flow 
-- Double-click on the Cobot when it appears on the screen and press OK button
-- Press on Get Control button
-- Click on the "3 dashes" button in the top left corner and the click on the "Project" button
-- Find the project named "RoboDKListenMode"
-- Use cobot's remote to run the program.
-
-#### RoboDK
- 
-- Open RoboDK
-- Locate RoboDK project for a selected part (i.e. "2E06666.rdk")
-- Double click on the Program in the File exporer to the left to simulate the program 
-- If everything is fine right click on the program and click on "Send to robot"
-  This will send the path plan to PLC/Cobot
-- Use GUI to start the program.
-
-
-#### Vision
-
-```text
-Placeholder
-```
+Information about how to use the component can be found in the [User & Programmers Manual](docs/usermanual.md).
 
 ## API
 

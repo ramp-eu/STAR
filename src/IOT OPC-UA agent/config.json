@@ -1,0 +1,255 @@
+{
+  "logLevel" : "DEBUG",
+  "contextBroker" : {
+    "host" : "130.188.160.100",
+    "port" : 1026
+  },
+  "server" : {
+    "port" : 4001,
+    "baseRoot" : "/"
+  },
+  "deviceRegistry" : {
+    "type" : "memory"
+  },
+  "mongodb" : {
+    "host" : "130.188.160.100",
+    "port" : "27017",
+    "db" : "iotagent",
+    "retries" : 5,
+    "retryTime" : 5
+  },
+  "types" : {
+    "new_Controller_0" : {
+      "service" : "opcua_Cobot",
+      "subservice" : "/demo",
+      "active" : [ {
+        "name" : "PLC_status",
+        "type" : "Text"
+      }, {
+        "name" : "Robot_Status",
+        "type" : "Integer"
+      }, {
+        "name" : "RobPos_X",
+        "type" : "Number"
+      }, {
+        "name" : "RobPos_Y",
+        "type" : "Number"
+      }, {
+        "name" : "RobPos_Z",
+        "type" : "Number"
+      }, {
+        "name" : "Stitching_Speed",
+        "type" : "Number"
+      }, {
+        "name" : "Stitching_Status",
+        "type" : "Integer"
+      }, {
+        "name" : "Rob_Speed",
+        "type" : "Integer"
+      }, {
+        "name" : "Alarms_Int",
+        "type" : "Integer"
+      }, {
+        "name" : "GRAFANA_Counter",
+        "type" : "Integer"
+      }, {
+        "name" : "Taping_Status",
+        "type" : "Integer"
+      }, {
+        "name" : "Parts_SP",
+        "type" : "Integer"
+      }, {
+        "name" : "Stitching_OEE",
+        "type" : "Integer"
+      }, {
+        "name" : "Taping_OEE",
+        "type" : "Integer"
+      }, {
+        "name" : "Parts_06Hrs",
+        "type" : "Integer"
+      }, {
+        "name" : "Parts_07Hrs",
+        "type" : "Integer"
+      }, {
+        "name" : "Parts_08Hrs",
+        "type" : "Integer"
+      }, {
+        "name" : "Parts_09Hrs",
+        "type" : "Integer"
+      }, {
+        "name" : "Parts_10Hrs",
+        "type" : "Integer"
+      }, {
+        "name" : "Parts_11Hrs",
+        "type" : "Integer"
+      }, {
+        "name" : "Parts_12Hrs",
+        "type" : "Integer"
+      }, {
+        "name" : "Parts_13Hrs",
+        "type" : "Integer"
+      }, {
+        "name" : "Parts_14Hrs",
+        "type" : "Integer"
+      }, {
+        "name" : "Parts_15Hrs",
+        "type" : "Integer"
+      }, {
+        "name" : "Parts_16Hrs",
+        "type" : "Integer"
+      }, {
+        "name" : "Parts_17Hrs",
+        "type" : "Integer"
+      }  ],
+      "lazy" : [ ],
+      "commands" : [ ]
+    }
+  },
+  "browseServerOptions" : null,
+  "service" : "opcua_Cobot",
+  "subservice" : "/demo",
+  "providerUrl" : "http://iotage:4001",
+  "pollingExpiration" : "200000",
+  "pollingDaemonFrequency" : "60000",
+  "deviceRegistrationDuration" : "P1M",
+  "defaultType" : null,
+  "contexts" : [ {
+    "id" : "age01_Omron",
+    "type" : "new_Controller_0",
+    "service" : "opcua_Cobot",
+    "subservice" : "/demo",
+    "polling" : null,
+    "mappings" : [ {
+      "ocb_id" : "PLC_status",
+      "opcua_id" : "ns=4;s=DeviceStatus.Mode",
+      "object_id" : null,
+      "inputArguments" : [ ]
+    }, {
+      "ocb_id" : "Robot_Status",
+      "opcua_id" : "ns=4;s=Robot_Status",
+      "object_id" : null,
+      "inputArguments" : [ ]
+    }, {
+      "ocb_id" : "RobPos_X",
+      "opcua_id" : "ns=4;s=RobPos_X",
+      "object_id" : null,
+      "inputArguments" : [ ]
+    }, {
+      "ocb_id" : "RobPos_Y",
+      "opcua_id" : "ns=4;s=RobPos_Y",
+      "object_id" : null,
+      "inputArguments" : [ ]
+    }, {
+      "ocb_id" : "RobPos_Z",
+      "opcua_id" : "ns=4;s=RobPos_Z",
+      "object_id" : null,
+      "inputArguments" : [ ]
+    }, {
+      "ocb_id" : "Stitching_Speed",
+      "opcua_id" : "ns=4;s=Stitching_Speed",
+      "object_id" : null,
+      "inputArguments" : [ ]
+    }, {
+      "ocb_id" : "Stitching_Status",
+      "opcua_id" : "ns=4;s=Stitching_Status",
+      "object_id" : null,
+      "inputArguments" : [ ]
+    }, {
+      "ocb_id" : "Rob_Speed",
+      "opcua_id" : "ns=4;s=Rob_Speed",
+      "object_id" : null,
+      "inputArguments" : [ ]
+    }, {
+      "ocb_id" : "Alarms_Int",
+      "opcua_id" : "ns=4;s=Alarms_Int",
+      "object_id" : null,
+      "inputArguments" : [ ]
+    }, {
+      "ocb_id" : "GRAFANA_Counter",
+      "opcua_id" : "ns=4;s=GRAFANA_Counter",
+      "object_id" : null,
+      "inputArguments" : [ ]
+    }, {
+      "ocb_id" : "Taping_Status",
+      "opcua_id" : "ns=4;s=Taping_Status",
+      "object_id" : null,
+      "inputArguments" : [ ]
+    }, {
+      "ocb_id" : "Parts_SP",
+      "opcua_id" : "ns=4;s=Parts_SP",
+      "object_id" : null,
+      "inputArguments" : [ ]
+    }, {
+      "ocb_id" : "Stitching_OEE",
+      "opcua_id" : "ns=4;s=Stitching_OEE",
+      "object_id" : null,
+      "inputArguments" : [ ]
+    }, {
+      "ocb_id" : "Taping_OEE",
+      "opcua_id" : "ns=4;s=Taping_OEE",
+      "object_id" : null,
+      "inputArguments" : [ ]
+    }, {
+      "ocb_id" : "Parts_06Hrs",
+      "opcua_id" : "ns=4;s=Parts_06Hrs",
+      "object_id" : null,
+      "inputArguments" : [ ]
+    }, {
+      "ocb_id" : "Parts_07Hrs",
+      "opcua_id" : "ns=4;s=Parts_07Hrs",
+      "object_id" : null,
+      "inputArguments" : [ ]
+    }, {
+      "ocb_id" : "Parts_08Hrs",
+      "opcua_id" : "ns=4;s=Parts_08Hrs",
+      "object_id" : null,
+      "inputArguments" : [ ]
+    }, {
+      "ocb_id" : "Parts_09Hrs",
+      "opcua_id" : "ns=4;s=Parts_09Hrs",
+      "object_id" : null,
+      "inputArguments" : [ ]
+    }, {
+      "ocb_id" : "Parts_10Hrs",
+      "opcua_id" : "ns=4;s=Parts_10Hrs",
+      "object_id" : null,
+      "inputArguments" : [ ]
+    }, {
+      "ocb_id" : "Parts_11Hrs",
+      "opcua_id" : "ns=4;s=Parts_11Hrs",
+      "object_id" : null,
+      "inputArguments" : [ ]
+    }, {
+      "ocb_id" : "Parts_12Hrs",
+      "opcua_id" : "ns=4;s=Parts_12Hrs",
+      "object_id" : null,
+      "inputArguments" : [ ]
+    }, {
+      "ocb_id" : "Parts_13Hrs",
+      "opcua_id" : "ns=4;s=Parts_13Hrs",
+      "object_id" : null,
+      "inputArguments" : [ ]
+    }, {
+      "ocb_id" : "Parts_14Hrs",
+      "opcua_id" : "ns=4;s=Parts_14Hrs",
+      "object_id" : null,
+      "inputArguments" : [ ]
+    }, {
+      "ocb_id" : "Parts_15Hrs",
+      "opcua_id" : "ns=4;s=Parts_15Hrs",
+      "object_id" : null,
+      "inputArguments" : [ ]
+    }, {
+      "ocb_id" : "Parts_16Hrs",
+      "opcua_id" : "ns=4;s=Parts_16Hrs",
+      "object_id" : null,
+      "inputArguments" : [ ]
+    }, {
+      "ocb_id" : "Parts_17Hrs",
+      "opcua_id" : "ns=4;s=Parts_17Hrs",
+      "object_id" : null,
+      "inputArguments" : [ ]
+    }  ]
+  } ],
+  "contextSubscriptions" : [ ]
+}

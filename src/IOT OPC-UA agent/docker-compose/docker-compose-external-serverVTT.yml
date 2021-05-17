@@ -1,0 +1,32 @@
+version: "3"
+#secrets:
+#   age_idm_auth:
+#      file: age_idm_auth.txt
+
+services:
+  iotage:
+    hostname: iotage
+#    image: iotagent4fiware/iotagent-opcua:v1.3.7
+    image: iot-agent:master
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "200k"
+        max-file: "10"
+    networks:
+      - hostnet
+      - iotnet
+    ports:
+      - "4001:4001"
+      - "4081:8080"
+    extra_hosts:
+      - "iotplcsrv:10.1.20.100"
+    volumes:
+      - ./AGECONF:/opt/iotagent-opcua/conf
+#    command: /usr/bin/tail -f /var/log/lastlog
+
+
+
+networks:
+  hostnet:
+  iotnet:

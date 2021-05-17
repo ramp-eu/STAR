@@ -47,6 +47,7 @@ This project is part of [DIH^2](http://www.dih-squared.eu/). For more informatio
 -   [Usage](#usage)
 -   [API](#api)
 -   [Testing](#testing)
+-   [ROSE-AP] (#ROSE-AP)
 -   [License](#license)
 
 ## Background
@@ -157,6 +158,26 @@ In order to get the system running one has to load the program backup files to t
 Placeholder
 ```
 
+## API
+
+```text
+Definition of the API interface:
+
+Information about the API of  the <Name of component> can be found in the [API documentation](docs/api.md).
+
+```
+
+## Testing
+
+```text
+How to test the component
+
+For performing a basic end-to-end test, you have to follow the step below. A detailed description about how to run tests can be found [here].
+
+> npm test
+
+```
+
 ## ROSE-AP
 
 
@@ -182,26 +203,6 @@ They would then be able to be accessed by the ERP to update the status and quant
 ### Install 
 
 ### Usage
-
-## API
-
-```text
-Definition of the API interface:
-
-Information about the API of  the <Name of component> can be found in the [API documentation](docs/api.md).
-
-```
-
-## Testing
-
-```text
-How to test the component
-
-For performing a basic end-to-end test, you have to follow the step below. A detailed description about how to run tests can be found [here].
-
-> npm test
-
-```
 
 ## License
 

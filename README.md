@@ -182,7 +182,8 @@ For performing a basic end-to-end test, you have to follow the step below. A det
 
 
 ### Background
-The ROSE-AP that we developed was about getting job requests from ERP to a STAR robotic cell to execeute. 
+The need for this ROSE-AP came from the need to get jobs sent from ERP to a STAR robotic cells database. 
+An operator could then choose which job to run on which STAR robotic cell. 
 
 ### Solution 
 The coming from the ERP would be in a CSV format. Using a CSV reader the data from the file would be published

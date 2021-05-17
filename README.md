@@ -167,7 +167,7 @@ Whenever an operator initiates a start on a STAR cell from an HMI would have a t
 Crate DB. The operator would then select a job from the list and press START. This would get the data transferred from 
 the Crate DB table into the PLC. 
 
-![ROSE-AP dataflow from ERP to PLC](https://i.ibb.co/7rZBfS8/ROSE-AP-1.jpg) 
+![ROSE-AP dataflow from ERP to PLC](https://i.ibb.co/L1v669T/ROSE-AP-1.jpg) 
 
 ## API
 

@@ -1,0 +1,29 @@
+version: "3"
+services:      
+    #Context Broker
+
+
+    mongo:
+        image: mongo:3.4
+        command: --nojournal
+
+    ### Proxy for Context Broker ###
+    ngsiproxy:
+        image: fiware/ngsiproxy:latest
+        ports:
+            - 3000:3000
+
+    ### Context Broker ###
+    orion:
+        image: fiware/orion
+        depends_on:
+            - mongo
+            - ngsiproxy
+        ports:
+            - 1026:1026
+        command:
+            -dbhost mongo -corsOrigin __ALL -inReqPayloadMaxSize 2097152
+
+
+
+

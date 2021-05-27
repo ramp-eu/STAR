@@ -57,7 +57,9 @@ bash post_subscription_csv.sh
 You will have to install the trial version of a HMI software that we have used to test the functionality of this ROSE-AP. 
 
 You can download it from https://inductiveautomation.com/downloads/ . Once downloaded install the software and let it run. 
+
 Go to http://localhost:8088 and setup user name/password. 
+
 To restore from the backup in the 'hmi' folder click on the config button ---> Backup/Restore ---> Restore tab ---> Choose the file from 'hmi' folder and click on Restore.
 
 ### Usage

@@ -115,4 +115,4 @@ In order to contribute you will have to request to be added to the project.
 
 ## License
 
-The project is licensed under the BSD license.
+The project is licensed under the [Apache-2](https://opensource.org/licenses/Apache-2.0) license.

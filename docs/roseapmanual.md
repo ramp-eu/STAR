@@ -63,3 +63,9 @@ To restore from the backup in the 'hmi' folder click on the config button ---> B
 ### Usage
 
 Now the Context broker and the CrateDB are running and the bash scripts are constantly looking for chnages in the file coming from ERP we could itterate the data and use it on our STAR cell. 
+
+To start the HMI go to http://localhost:8088 and click on 'Download Vision Client Launcher' and install the launcher. 
+Once installed start the Launcher and open the ROSEAP project.
+The HMI should look like this: 
+
+![ROSE-AP HMI](https://i.ibb.co/bmVYS4W/rose-ap-3.jpg)

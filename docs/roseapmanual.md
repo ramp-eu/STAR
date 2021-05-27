@@ -69,3 +69,14 @@ Once installed start the Launcher and open the ROSEAP project.
 The HMI should look like this: 
 
 ![ROSE-AP HMI](https://i.ibb.co/bmVYS4W/rose-ap-3.jpg)
+
+In order to get a job started: 
+1. Select a job from the table
+2. Press on the "Run Job on STAR cell" and confirm the prompts
+3. You are done. The data is with the PLC.
+
+You can test if the data successfully reached the PLC by opening the PLC_mastercode and downloading it to a Omron NX PLC and going online.
+Once online you can check the data in the "ERPJobWorking" Struct. 
+To do so click on "View" tab and select "Watch Tab Page (Table)" and type in "ERPJobWorking" . 
+The watch tab should look like that: 
+![PLC Watch tab](https://i.ibb.co/pwd1vmB/rose-ap-4.jpg)

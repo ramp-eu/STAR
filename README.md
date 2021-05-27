@@ -29,6 +29,7 @@ This project is part of [DIH^2](http://www.dih-squared.eu/). For more informatio
 -   [ROSE AP](#rose-ap)
 -   [License](#license)
 -   [Feedback] (#feedback)
+-   [Feedback] (#contribution)
 
 ## Background
 
@@ -107,10 +108,10 @@ Information about how to install & use the component can be found in the [ROSE-A
 
 [MIT](LICENSE) © <TTE>
 
-##Feedback
+## Feedback
 
 Any feedback and suggestions can be going to the Issues tab and creating New Issue.
 
-##Contribution
+## Contribution
 
 In order to contribute you will have to request to be added to the project. 

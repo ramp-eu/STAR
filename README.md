@@ -28,8 +28,8 @@ This project is part of [DIH^2](http://www.dih-squared.eu/). For more informatio
 -   [Testing](#testing)
 -   [ROSE AP](#rose-ap)
 -   [License](#license)
--   [Feedback] (#feedback)
--   [Feedback] (#contribution)
+-   [Feedback](#feedback)
+-   [Feedback](#contribution)
 
 ## Background
 

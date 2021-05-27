@@ -1,12 +1,12 @@
-site_name: <site-name>
-site_url: https://<site-url>
-repo_url: https://github.com/<repo_url>
+site_name: DIH2 STAR
+site_url: https://github.com/STAR
+repo_url: https://github.com/STAR
 site_description: RAMP Documentation
 docs_dir: docs
 site_dir: html
 edit_uri: edit/master/doc/
 markdown_extensions: [toc,fenced_code]
-use_directory_urls: false
+use_directory_urls: true
 theme: readthedocs
 pages:
   - Home: 'README.md'

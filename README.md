@@ -29,7 +29,7 @@ This project is part of [DIH^2](http://www.dih-squared.eu/). For more informatio
 -   [ROSE AP](#rose-ap)
 -   [License](#license)
 -   [Feedback](#feedback)
--   [Feedback](#contribution)
+-   [Contribution](#contribution)
 
 ## Background
 

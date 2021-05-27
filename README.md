@@ -1,5 +1,4 @@
-## Requirements for the Mid-Term Review: [here](docs/README.md) 
-<hr />
+
 
 # STAR - Stitching and Taping Assisted by Robotics
 
@@ -11,26 +10,6 @@
 [![Coverage Status](https://coveralls.io/repos/github/ramp-eu/TTE.project1/badge.svg?branch=master)](https://coveralls.io/github/ramp-eu/TTE.project1?branch=master)
 [![Codacy grade](https://img.shields.io/codacy/grade/99310c5c4332439197633912a99d2e3c)](https://app.codacy.com/manual/jason-fox/TTE.project1)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4187/badge)](https://bestpractices.coreinfrastructure.org/projects/4187)
-
-```text
-
-The Badges above demonstrate testing, code coverage
-and commitment to coding standards (since the code is linted on commit).
-
-The links need to be amended to point to the correct repo.
-
-Sign up for:
-
-- CI Test system - e.g. Travis
-- A Documentation website - e.g. ReadTheDocs
-- Static Code Analysis tool - e.g. Codacy
-- CII Best Practices https://bestpractices.coreinfrastructure.org
-
-Only CII Best Practices (and its badge) is mandatory. Any equivalent public automated tools for the other three may be used.
-
-Note that the CII Best Practices questionaire will request evidence of tooling used.
-
-```
 
 
 This project is part of [DIH^2](http://www.dih-squared.eu/). For more information check the RAMP Catalogue entry for the components.
@@ -107,14 +86,6 @@ Information about how to install the component can be found at the corresponding
 
 Information about how to use the component can be found in the [User & Programmers Manual](docs/usermanual.md).
 
-## API
-
-```text
-Definition of the API interface:
-
-Information about the API of  the <Name of component> can be found in the [API documentation](docs/api.md).
-
-```
 
 ## Testing
 

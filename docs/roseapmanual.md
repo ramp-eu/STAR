@@ -20,7 +20,7 @@ They would then be able to be accessed by the ERP to update the status and quant
 
 ### Install 
 
-## Periodically uploading csv data
+#### Periodically uploading csv data
 
 - start docker-compose (everything is removed and orion is changed):
 ```
@@ -38,7 +38,7 @@ bash uploadcsv.sh
 
 - creating (POST) and modifying (PATCH) of the entities are done for first 5 entries (columns) in the csv file. You can add more data (columns) by modifying createcsv.sh and updatecsv.sh. 
 
-## Connection to QuantumLeap
+#### Connection to QuantumLeap
 
 - in terminal cd into cratedb folder and type (the first line is needed to increase the virtual memory):
 ```
@@ -52,4 +52,14 @@ bash post_subscription_csv.sh
 - open in the web browser a page: http://localhost:4200
 - there should be a table and you can query the table (press the query button)
 
+#### Install HMI software 
+
+You will have to install the trial version of a HMI software that we have used to test the functionality of this ROSE-AP. 
+
+You can download it from https://inductiveautomation.com/downloads/ . Once downloaded install the software and let it run. 
+Go to http://localhost:8088 and setup user name/password. 
+To restore from the backup in the 'hmi' folder click on the config button ---> Backup/Restore ---> Restore tab ---> Choose the file from 'hmi' folder and click on Restore.
+
 ### Usage
+
+Now the Context broker and the CrateDB are running and the bash scripts are constantly looking for chnages in the file coming from ERP we could itterate the data and use it on our STAR cell. 

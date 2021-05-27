@@ -9,11 +9,12 @@ markdown_extensions: [toc,fenced_code]
 use_directory_urls: false
 theme: readthedocs
 pages:
-  - Home: 'index.md'
+  - Home: 'README.md'
   - 'Getting Started' : 'getting-started.md'
   - 'User & Programmers Manual':
     - 'Architecture' : 'architecture.md'
     - 'API' : 'api.md'
     - 'User Guide': 'usermanual.md'
+    - 'ROSE AP Guide': 'roseap.md'
   - 'Installation & Administration Manual': 
     - 'Installation Guide': 'installationguide.md'

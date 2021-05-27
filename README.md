@@ -2,7 +2,7 @@
 
 # STAR - Stitching and Taping Assisted by Robotics
 
-[![License: MIT](https://img.shields.io/github/license/ramp-eu/TTE.project1.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Docker badge](https://img.shields.io/docker/pulls/ramp-eu/TTE.project1.svg)](https://hub.docker.com/r/<org>/<repo>/)
 <br/>
 [![Documentation Status](https://readthedocs.org/projects/star1/badge/?version=latest)](https://star1.readthedocs.io/en/latest/?badge=latest)

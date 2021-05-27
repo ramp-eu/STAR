@@ -15,7 +15,7 @@ pages:
     - 'Architecture' : 'architecture.md'
     - 'API' : 'api.md'
     - 'User Guide': 'usermanual.md'
-    - 'ROSE AP Guide': 'roseap.md'
+    - 'ROSE AP Guide': 'roseapmanual.md'
   - 'Installation & Administration Manual': 
     - 'Installation Guide': 'installationguide.md'
     

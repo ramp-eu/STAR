@@ -104,9 +104,6 @@ For performing a basic end-to-end test, you have to follow the step below. A det
 
 Information about how to install & use the component can be found in the [ROSE-AP Manual](docs/roseapmanual.md).
 
-## License
-
-[MIT](LICENSE) © <TTE>
 
 ## Feedback
 
@@ -115,3 +112,7 @@ Any feedback and suggestions can be going to the Issues tab and creating New Iss
 ## Contribution
 
 In order to contribute you will have to request to be added to the project. 
+
+## License
+
+[MIT](LICENSE) © <TTE>

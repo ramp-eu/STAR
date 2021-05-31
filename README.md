@@ -120,7 +120,7 @@ Information about how to install & use the component can be found in the [ROSE-A
 
 ## Feedback
 
-Any feedback and suggestions can be going to the Issues tab and creating New Issue.
+Any feedback and suggestions can be submitted by creating New issue in the Issues tab or by emailing the team. 
 
 ## Contribution
 

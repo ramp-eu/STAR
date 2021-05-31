@@ -79,6 +79,6 @@ In order to get a job started:
 
 You can test if the data successfully reached the PLC by opening the PLC_mastercode and downloading it to a Omron NX PLC and going online.
 Once online you can check the data in the "ERPJobWorking" Struct. 
-To do so click on "View" tab and select "Watch Tab Page (Table)" and type in "ERPJobWorking" . 
+To do so click on "View" tab and select "Watch Tab Page (Table)" and type in "ERPJobWorking" .  
 The watch tab should look like that: 
 ![PLC Watch tab](https://i.ibb.co/pwd1vmB/rose-ap-4.jpg)

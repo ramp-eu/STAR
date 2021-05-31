@@ -26,8 +26,3 @@ In order to get the system running one has to load the program backup files to t
 - Use GUI to start the program.
 
 
-#### Vision
-
-```text
-Placeholder
-```

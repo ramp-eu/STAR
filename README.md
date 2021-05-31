@@ -91,14 +91,14 @@ Information about how to use the component can be found in the [User & Programme
 
 ## Testing
 
-```text
-How to test the component
+### Concept testing
 
-For performing a basic end-to-end test, you have to follow the step below. A detailed description about how to run tests can be found [here].
+In order to test the full potential of this proejct one would have to have Omron TM12 Cobot, Omron PLC rack and an Addler stitching machine. 
+As this is unlikely to be the case in this section we will explain how to test the Digital Twin section of the project. This will give you an idea of what the project is all about. 
+For this you will have to have RoboDK installed on your PC. Once RoboDK is installed go to "src" folder of the repo and open the RoboDK project (2E06666.rdk).
+Once the project is open you'd see a table with stitching machine and cobot on it, and the test part to be stitched.
+On the left also there will be a file explorer like tree. It consists of few items. The reference frame where the robot is located, the Tool reference frame, The Table 3D object and the program called Prog1. 
 
-> npm test
-
-```
 
 ## ROSE-AP
 

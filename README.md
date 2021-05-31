@@ -27,9 +27,9 @@ This project is part of [DIH^2](http://www.dih-squared.eu/). For more informatio
 -   [API](#api)
 -   [Testing](#testing)
 -   [ROSE AP](#rose-ap)
--   [License](#license)
 -   [Feedback](#feedback)
 -   [Contribution](#contribution)
+-   [License](#license)
 
 ## Background
 
@@ -101,7 +101,7 @@ On the left also there will be a file explorer like tree. It consists of few ite
 The program conists of Movements and IO commands. The Movements are of 2 types (MoveJ and MoveL). The MoveJ commands would get the cobot to go from Point A to Point B in the quickest and best way for the robot. 
 The MoveL moves the cobot's End of Arm Tooling in a stright line from A to B. This is essential when operating close to the robot and helps prevent collissions. To start the Digital Twin's program double-click on "Prog1" and you'd see the program beign executed. 
 
-### Test rig testing. 
+### Rig testing
 
 If there is a test rig aviaiable (i.e. OMRON TM12 Cobot, Omron PLC rack, Addler Stitcher) one can follow the steps below: 
 1. Connect all the machines to a local network switch

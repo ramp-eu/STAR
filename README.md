@@ -98,7 +98,20 @@ As this is unlikely to be the case in this section we will explain how to test t
 For this you will have to have RoboDK installed on your PC. Once RoboDK is installed go to "src" folder of the repo and open the RoboDK project (2E06666.rdk).
 Once the project is open you'd see a table with stitching machine and cobot on it, and the test part to be stitched.
 On the left also there will be a file explorer like tree. It consists of few items. The reference frame where the robot is located, the Tool reference frame, The Table 3D object and the program called Prog1. 
+The program conists of Movements and IO commands. The Movements are of 2 types (MoveJ and MoveL). The MoveJ commands would get the cobot to go from Point A to Point B in the quickest and best way for the robot. 
+The MoveL moves the cobot's End of Arm Tooling in a stright line from A to B. This is essential when operating close to the robot and helps prevent collissions. To start the Digital Twin's program double-click on "Prog1" and you'd see the program beign executed. 
 
+### Test rig testing. 
+
+If there is a test rig aviaiable (i.e. OMRON TM12 Cobot, Omron PLC rack, Addler Stitcher) one can follow the steps below: 
+1. Connect all the machines to a local network switch
+2. Power everythign on.
+3. Reset any E-stops on the Cobot. 
+4. Open TMFlow software and load the project called RoboDKListen.
+5. Make sure the Omron PLC is online, running and has the backup from the src folder uploaded onto it. 
+6. In RoboDK right-click on the Program and make sure you select the "CSV" post processor. (Although it should be already selected). 
+7. Run the program in RoboDK and make sure it is safe to be transferred to the Robot. 
+8. Finally send the program to the robot by right-clicking on the program and then "Send program to Robot"
 
 ## ROSE-AP
 

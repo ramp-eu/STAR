@@ -22,6 +22,10 @@ They would then be able to be accessed by the ERP to update the status and quant
 
 #### Periodically uploading csv data
 
+- build docker container by running
+```
+docker-compose build
+```
 - start docker-compose (everything is removed and orion is changed):
 ```
 docker-compose up

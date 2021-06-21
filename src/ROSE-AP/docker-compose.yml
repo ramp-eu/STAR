@@ -1,19 +1,18 @@
 version: "3"
-services:      
-    #Context Broker
-
+services:
+#Context Broker
 
     mongo:
         image: mongo:3.4
         command: --nojournal
 
-    ### Proxy for Context Broker ###
+        ### Proxy for Context Broker ###
     ngsiproxy:
         image: fiware/ngsiproxy:latest
         ports:
             - 3000:3000
 
-    ### Context Broker ###
+        ### Context Broker ###
     orion:
         image: fiware/orion
         depends_on:
@@ -24,6 +23,66 @@ services:
         command:
             -dbhost mongo -corsOrigin __ALL -inReqPayloadMaxSize 2097152
 
+    csvread:
+        restart: always
+        image: star-rose-ap-csv:latest
+        build:
+            dockerfile: Dockerfile
+            context: .
+        volumes:
+            #- path on the host : path inside the container
+            - $PWD/app-vol:/app
+        environment:
+            - FIWAREHOST=orion
+        ports: 
+            - "39002:39002"
 
-   
+
+    quantumleap:
+        image: smartsdk/quantumleap:0.7.6
+        logging:
+            driver: "json-file"
+            options:
+                max-size: "200k"
+                max-file: "10"
+        hostname: quantumleap
+        container_name: fiware-quantumleap
+        ports:
+            - "8668:8668"
+        depends_on:
+            - crate-db
+        environment:
+            - CRATE_HOST=crate-db
+#    healthcheck:
+#      test: curl --fail -s http://quantumleap:8668/v2/version || exit 1
+
+    crate-db:
+        image: crate:3.3
+        logging:
+            driver: "json-file"
+            options:
+                max-size: "200k"
+                max-file: "10"
+        hostname: crate-db
+        container_name: db-crate
+        ports:
+            # Admin UI
+            - "4200:4200"
+            # Transport protocol
+            - "4300:4300"
+            - "5432:5432"
+        command: crate -Cdiscovery.type=single-node -Clicense.enterprise=false -Cauth.host_based.enabled=false  -Ccluster.name=democluster -Chttp.cors.enabled=true -Chttp.cors.allow-origin="*"
+        volumes:
+            - crate-db:/data
+
+#  grafana:
+#    image: grafana/grafana
+#    ports:
+#      - "3001:3000"
+#    depends_on:
+#      - crate-db
+
+volumes:
+    crate-db: ~
+
 

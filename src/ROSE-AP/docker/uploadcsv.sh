@@ -12,6 +12,8 @@ echo DOING : curl create entities
 echo DOING : curl get entities
 curl --location --request GET $ip:1026/v2/entities # | json_pp
 
+
+
 x=1
 while [ 1 ]
 do
@@ -22,5 +24,29 @@ do
   ./updatecsv.sh $csvfile
 	echo DOING : curl get entities only jobid
 	curl --location --request GET $ip:1026/v2/entities/$id/attrs/JobID #| json_pp
+	if ((x == 3 )); then 
+      curl --location --request POST $ip:1026/v2/subscriptions/ --header 'Content-Type: application/json' --data-raw '{
+      "description": "Notify QuantumLeap of all sensor changes",
+      "subject": {
+      "entities": [
+      {
+        "idPattern": ".*",
+        "type": "csv_value"
+      }
+     ],
+        "condition": { "attrs": [] }
+     },
+     "notification": {
+    "http": {
+      "url": "http://quantumleap:8668/v2/notify"
+    },
+        "attrs": [],
+    "metadata": ["dateCreated", "dateModified"]
+  }
+}'	
+	fi
 done
+
+	
+
 
